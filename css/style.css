@@ -35,6 +35,7 @@ body {
     scroll-behavior: smooth;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -300,7 +301,7 @@ h3.hello {
 h3.hello span {
     font-family: 'Clicker Script', cursive;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 200;
     color: var(--skin-color);
 }
 
@@ -349,9 +350,9 @@ h3.my-profession {
 }
 
 .home .home-img img {
-    height: 400px;
+    height: 600px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* About Styling*/
