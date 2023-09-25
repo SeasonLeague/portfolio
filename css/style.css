@@ -33,7 +33,6 @@ body {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-    width: 100%;
 }
 
 
@@ -779,5 +778,6 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
+        width: 100%;
     }
 }
