@@ -650,7 +650,7 @@ h3.my-profession {
 
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 /* CONTACT STYLING*/
