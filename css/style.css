@@ -294,14 +294,14 @@ ul {
 }
 
 h3.hello {
-    font-size: 28px;
+    font-size: 20px;
     margin: 15px 0;
 }
 
 h3.hello span {
     font-family: 'Clicker Script', cursive;
-    font-size: 50px;
-    font-weight: 200;
+    font-size: 40px;
+    font-weight: 400;
     color: var(--skin-color);
 }
 
@@ -778,6 +778,5 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
-        width: 100%;
     }
 }
