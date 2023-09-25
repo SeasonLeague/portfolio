@@ -33,6 +33,7 @@ body {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 
@@ -650,7 +651,7 @@ h3.my-profession {
 
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
-    display: inline-block;
+    display: block;
 }
 
 /* CONTACT STYLING*/
