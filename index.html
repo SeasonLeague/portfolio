@@ -27,7 +27,7 @@
         <!--Aside Part-->
         <div class="aside">
             <div class="logo">
-                <a href="#"><span>Ru</span>th</a>
+                <a href="#"><span>R</span>uth</a>
             </div>
             <div class="nav-toggler">
                 <span></span>
@@ -115,8 +115,8 @@
                                         <div class="skill-item padd-15">
                                             <h5>Designing Skills</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width: 66%;"></div>
-                                                <div class="skill-percent">66%</div>
+                                                <div class="progress-in" style="width: 55%;"></div>
+                                                <div class="skill-percent">55%</div>
                                             </div>
                                         </div>
                                         <div class="skill-item padd-15">
@@ -366,7 +366,7 @@
                     <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
                     <!-- ====== Contact Form ====== -->
                     <div class="row">
-                        <div class="contact-form padd-15" id="contact-form">
+                        <form class="contact-form padd-15" id="contact-form">
                             <div class="row">
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
@@ -375,30 +375,30 @@
                                 </div>
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
+                                        <input type="email" class="form-control" id="to" placeholder="Email">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
+                                        <input type="text" class="form-control" placeholder="Subject" id="subject">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                        <textarea name="" class="form-control" id="message" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
-                                    <button type="submit" class="btn">Send Message</button>
+                                    <button type="submit" class="btn" onclick="sendEmail()">Send Message</button>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </section>
