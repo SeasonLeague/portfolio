@@ -35,7 +35,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -294,13 +293,13 @@ ul {
 }
 
 h3.hello {
-    font-size: 20px;
+    font-size: 28px;
     margin: 15px 0;
 }
 
 h3.hello span {
     font-family: 'Clicker Script', cursive;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     color: var(--skin-color);
 }
@@ -312,16 +311,7 @@ h3.hello span {
     position: relative;
 }
 
-.home-img::after {
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    right: 20px;
-    bottom: -40px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-}
+
 
 .home-img::before {
     content: '';
@@ -341,7 +331,6 @@ h3.my-profession {
 
 .typing {
     color: var(--skin-color);
-    font-size: 25px;
 }
 
 .home-info p {
@@ -351,9 +340,9 @@ h3.my-profession {
 }
 
 .home .home-img img {
-    height: 600px;
+    height: 500px;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 /* About Styling*/
